@@ -1,9 +1,9 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:folio/configs/app_dimensions.dart';
-import 'package:folio/utils/contact_utils.dart';
-import 'package:folio/widget/custom_text_heading.dart';
-import 'package:folio/widget/project_card.dart';
+import 'package:portfolio/configs/app_dimensions.dart';
+import 'package:portfolio/utils/contact_utils.dart';
+import 'package:portfolio/widget/custom_text_heading.dart';
+import 'package:portfolio/widget/project_card.dart';
 
 class ContactMobileTab extends StatelessWidget {
   const ContactMobileTab({Key? key}) : super(key: key);

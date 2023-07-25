@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:folio/animations/bottom_animation.dart';
-import 'package:folio/configs/configs.dart';
-import 'package:folio/utils/contact_utils.dart';
-import 'package:folio/widget/custom_text_heading.dart';
-import 'package:folio/widget/project_card.dart';
+import 'package:portfolio/animations/bottom_animation.dart';
+import 'package:portfolio/configs/configs.dart';
+import 'package:portfolio/utils/contact_utils.dart';
+import 'package:portfolio/widget/custom_text_heading.dart';
+import 'package:portfolio/widget/project_card.dart';
 
 class ContactDesktop extends StatelessWidget {
   const ContactDesktop({Key? key}) : super(key: key);

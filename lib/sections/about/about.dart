@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:folio/responsive/responsive.dart';
-import 'package:folio/sections/about/about_desktop.dart';
-import 'package:folio/sections/about/about_mobile.dart';
-import 'package:folio/sections/about/about_tablet.dart';
+import 'package:portfolio/responsive/responsive.dart';
+import 'package:portfolio/sections/about/about_desktop.dart';
+import 'package:portfolio/sections/about/about_mobile.dart';
+import 'package:portfolio/sections/about/about_tablet.dart';
 
 class About extends StatelessWidget {
   const About({Key? key}) : super(key: key);

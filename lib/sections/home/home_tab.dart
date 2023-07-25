@@ -1,10 +1,10 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:folio/animations/entrance_fader.dart';
-import 'package:folio/configs/configs.dart';
-import 'package:folio/utils/utils.dart';
+import 'package:portfolio/animations/entrance_fader.dart';
+import 'package:portfolio/configs/configs.dart';
+import 'package:portfolio/utils/utils.dart';
 
-import 'package:folio/widget/social_links.dart';
+import 'package:portfolio/widget/social_links.dart';
 
 class HomeTab extends StatelessWidget {
   const HomeTab({Key? key}) : super(key: key);
@@ -18,8 +18,8 @@ class HomeTab extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            bottom: 0,
-            right: 0,
+            bottom: 30,
+            right: 10,
             child: Opacity(
               opacity: 0.9,
               child: EntranceFader(
@@ -29,7 +29,7 @@ class HomeTab extends StatelessWidget {
                 child: Image.asset(
                   StaticUtils.blackWhitePhoto,
                   height: size.width < 1200
-                      ? size.height * 0.75
+                      ? size.height * 0.7
                       : size.height * 0.85,
                 ),
               ),
@@ -67,15 +67,12 @@ class HomeTab extends StatelessWidget {
                 ),
                 Space.y1!,
                 Text(
-                  "Muhammad",
-                  style: AppText.h1!.copyWith(
-                    fontFamily: 'Montserrat',
-                    fontWeight: FontWeight.w100,
-                  ),
+                  "Rishika",
+                  style: AppText.h1b!.copyWith(height: 1),
                 ),
                 Text(
-                  "Hamza",
-                  style: AppText.h1b!.copyWith(
+                  "Garg",
+                  style: AppText.h1!.copyWith(
                     height: 1,
                   ),
                 ),
@@ -96,16 +93,16 @@ class HomeTab extends StatelessWidget {
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
-                          TyperAnimatedText(
-                            ' UI/UX Enthusiast',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                          TyperAnimatedText(
-                            ' A friend :)',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
+                          // TyperAnimatedText(
+                          //   ' UI/UX Enthusiast',
+                          //   speed: const Duration(milliseconds: 50),
+                          //   textStyle: AppText.b1,
+                          // ),
+                          // TyperAnimatedText(
+                          //   ' A friend :)',
+                          //   speed: const Duration(milliseconds: 50),
+                          //   textStyle: AppText.b1,
+                          // ),
                         ],
                         isRepeatingAnimation: true,
                       ),

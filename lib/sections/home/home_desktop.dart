@@ -1,10 +1,10 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:folio/animations/entrance_fader.dart';
-import 'package:folio/configs/configs.dart';
+import 'package:portfolio/animations/entrance_fader.dart';
+import 'package:portfolio/configs/configs.dart';
 
-import 'package:folio/utils/utils.dart';
-import 'package:folio/widget/social_links.dart';
+import 'package:portfolio/utils/utils.dart';
+import 'package:portfolio/widget/social_links.dart';
 
 class HomeDesktop extends StatelessWidget {
   const HomeDesktop({Key? key}) : super(key: key);
@@ -19,8 +19,8 @@ class HomeDesktop extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            bottom: 0,
-            right: 0,
+            bottom: 50,
+            right: 145,
             child: Opacity(
               opacity: 0.9,
               child: EntranceFader(
@@ -29,9 +29,8 @@ class HomeDesktop extends StatelessWidget {
                 duration: const Duration(milliseconds: 800),
                 child: Image.asset(
                   StaticUtils.blackWhitePhoto,
-                  height: size.width < 1200
-                      ? size.height * 0.8
-                      : size.height * 0.85,
+                  height:
+                      size.width < 1200 ? size.height * 0.8 : size.height * 0.7,
                 ),
               ),
             ),
@@ -68,16 +67,13 @@ class HomeDesktop extends StatelessWidget {
                 ),
                 Space.y1!,
                 Text(
-                  "Muhammad",
-                  style: AppText.h1!.copyWith(
-                    fontFamily: 'Montserrat',
-                    fontSize: AppDimensions.normalize(25),
-                    fontWeight: FontWeight.w100,
-                  ),
+                  "Rishika",
+                  style: AppText.h1b!.copyWith(
+                      fontSize: AppDimensions.normalize(25), height: 1),
                 ),
                 Text(
-                  "Hamza",
-                  style: AppText.h1b!.copyWith(
+                  "Garg",
+                  style: AppText.h1!.copyWith(
                     fontSize: AppDimensions.normalize(25),
                     height: 1,
                   ),
@@ -99,16 +95,16 @@ class HomeDesktop extends StatelessWidget {
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
-                          TyperAnimatedText(
-                            ' UI/UX Enthusiast',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                          TyperAnimatedText(
-                            ' A friend :)',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
+                          // TyperAnimatedText(
+                          //   ' UI/UX Enthusiast',
+                          //   speed: const Duration(milliseconds: 50),
+                          //   textStyle: AppText.b1,
+                          // ),
+                          // TyperAnimatedText(
+                          //   ' A friend :)',
+                          //   speed: const Duration(milliseconds: 50),
+                          //   textStyle: AppText.b1,
+                          // ),
                         ],
                         isRepeatingAnimation: true,
                       ),

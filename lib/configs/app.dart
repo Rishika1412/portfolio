@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:folio/configs/configs.dart';
+import 'package:portfolio/configs/configs.dart';
 
 class App {
   static bool? isLtr;

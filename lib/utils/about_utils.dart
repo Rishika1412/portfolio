@@ -1,7 +1,7 @@
 class AboutUtils {
   static const String aboutMeHeadline =
-      'I\'m Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.';
+      'I\'m Rishika Garg, a Flutter developer, a creative problem-solver, and a dedicated technophile.';
 
   static const String aboutMeDetail =
-      'I\'m a Fresh Graduate with Computer Science as Majors from COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. Been a former  Google Developer Student Clubs (DSC) lead and also CEO/Co-Founder Flutter Islamabad, Pakistan. Currently working as Associate Software Engineer at Sastaticket.pk';
+      "A B.Tech CSE major at AKGEC, I am a dedicated Flutter developer with experience in creating diverse mobile apps. My work, spanning from a user-friendly pregnancy app to a finance management app, showcases my technical skills and user-focused approach. Eager to continually learn and stay updated with latest tech trends, I actively seek challenging opportunities to make a meaningful contribution in mobile app development. With a unique blend of technical expertise, innovative thinking, and customer engagement, I aim to deliver significant value in any project I undertake. Let's connect and explore how my skills can contribute to your success.";
 }

@@ -1,9 +1,9 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:folio/configs/configs.dart';
+import 'package:portfolio/configs/configs.dart';
 
-import 'package:folio/utils/utils.dart';
-import 'package:folio/widget/social_links.dart';
+import 'package:portfolio/utils/utils.dart';
+import 'package:portfolio/widget/social_links.dart';
 
 class HomeMobile extends StatelessWidget {
   const HomeMobile({Key? key}) : super(key: key);
@@ -55,15 +55,14 @@ class HomeMobile extends StatelessWidget {
                 ),
                 Space.y!,
                 Text(
-                  "Muhammad",
-                  style: AppText.h3!.copyWith(
-                    fontFamily: 'Montserrat',
-                    fontWeight: FontWeight.w100,
+                  "Rishika",
+                  style: AppText.h3b!.copyWith(
+                    height: 1,
                   ),
                 ),
                 Text(
-                  "Hamza",
-                  style: AppText.h3b!.copyWith(
+                  "Garg",
+                  style: AppText.h3!.copyWith(
                     height: 1,
                   ),
                 ),
@@ -81,16 +80,16 @@ class HomeMobile extends StatelessWidget {
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
-                        TyperAnimatedText(
-                          ' UI/UX Enthusiast',
-                          speed: const Duration(milliseconds: 50),
-                          textStyle: AppText.b1,
-                        ),
-                        TyperAnimatedText(
-                          ' A friend :)',
-                          speed: const Duration(milliseconds: 50),
-                          textStyle: AppText.b1,
-                        ),
+                        // TyperAnimatedText(
+                        //   ' ',
+                        //   speed: const Duration(milliseconds: 50),
+                        //   textStyle: AppText.b1,
+                        // ),
+                        // TyperAnimatedText(
+                        //   ' A friend :)',
+                        //   speed: const Duration(milliseconds: 50),
+                        //   textStyle: AppText.b1,
+                        // ),
                       ],
                       repeatForever: true,
                       isRepeatingAnimation: true,
