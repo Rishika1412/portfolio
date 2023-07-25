@@ -6,7 +6,7 @@ I am thrilled to introduce my very first portfolio website, which I built using 
 
 ## Overview
 
-For this project, I started by forking the portfolio website repository originally developed by Hamza[https://github.com/mhmzdev/devfolio]. I chose this repository due to its great structure and impressive design. However, I made sure to customize it, adding my unique touch and ensuring it reflected my identity and skills.
+For this project, I started by forking the portfolio website repository originally developed by [Hamza](https://github.com/mhmzdev/devfolio). I chose this repository due to its great structure and impressive design. However, I made sure to customize it, adding my unique touch and ensuring it reflected my identity and skills.
 
 ## Modifications
 
@@ -27,7 +27,7 @@ Developing this portfolio was an excellent learning opportunity. I got to dig de
 
 ## Acknowledgements
 
-I want to express my gratitude towards Hamza[https://github.com/mhmzdev] for creating the initial codebase for this portfolio website. Their work provided me with a robust foundation to learn, modify and create my own personal portfolio website.
+I want to express my gratitude towards [Hamza](https://github.com/mhmzdev) for creating the initial codebase for this portfolio website. Their work provided me with a robust foundation to learn, modify and create my own personal portfolio website.
 
 ## Conclusion
 
