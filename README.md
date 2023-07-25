@@ -1,52 +1,44 @@
-## Let's recreate your Portfolio
+# My First Portfolio Website - Built with Flutter
 
-Get started now by cloning :)
+Hello everyone!
 
-<img src="https://user-images.githubusercontent.com/43790152/171403666-468b63d9-52be-4ec6-9cdb-c08c0e9d18f3.png">
+I am thrilled to introduce my very first portfolio website, which I built using Flutter. This project is a significant milestone in my journey as a developer, and I'm very excited to share the fruits of my labor.
 
-<img src="https://user-images.githubusercontent.com/43790152/171403671-4e50f0a8-f73c-40f6-8628-547754afc2ef.png">
+## Overview
 
-<br>
+For this project, I started by forking the portfolio website repository originally developed by Hamza[https://github.com/mhmzdev/devfolio]. I chose this repository due to its great structure and impressive design. However, I made sure to customize it, adding my unique touch and ensuring it reflected my identity and skills.
 
-<div align="center">
+## Modifications
 
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
-[![GitHub Forks](https://img.shields.io/github/forks/saadhaxxan/Car_Game_Python_Pygame.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/m-hamzashakeel/DevFolio/fork)
-[![GitHub Issues](https://img.shields.io/github/issues/saadhaxxan/Car_Game_Python_Pygame.svg?style=flat&label=Issues&maxAge=2592000)](https://github.com/m-hamzashakeel/DevFolio/issues)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black	)](#)
+The main modifications I made to the code include:
 
-</div>
+1. **Content Replacement**: All the text content and images have been replaced to represent my profile, experience, skills, and projects.
+2. **Color Scheme Adjustment**: The original color palette was replaced with one that aligns better with my personal brand.
+3. **Feature Addition/Removal**: Depending on the relevance to my personal profile, some features were added, while others were removed.
+4. **Bug Fixes**: I've also fixed any bugs or issues that I encountered during the process of personalization.
 
-## 🧑‍💻 Devfolio
-Is a multi-platform portfolio for developers available for mobile, windows and web. Includes the following sections:
-- Home
-- About
-- Services
-- Portfolio
-- Contact
+## Technologies Used
 
-## 🔗 Useful links
+This project was created using Flutter, a fantastic UI toolkit by Google. Flutter has a unique feature: it allows one codebase to create applications for multiple platforms. In this case, I utilized it for building a responsive website.
 
-🌐 Web App: http://mhmz.dev
+## Learning Experience
 
-📱 Android App: https://play.google.com/store/apps/details?id=com.hmz.folio
+Developing this portfolio was an excellent learning opportunity. I got to dig deep into Flutter's documentation, best practices, and community. This project also helped me better understand the process of forking and modifying an existing codebase. I look forward to incorporating these learnings into future projects.
 
-📙 Article: https://mhamzadev.medium.com/folio-responsive-portfolio-using-flutter-2-0-86ae3e6cce4f
+## Acknowledgements
 
+I want to express my gratitude towards Hamza[https://github.com/mhmzdev] for creating the initial codebase for this portfolio website. Their work provided me with a robust foundation to learn, modify and create my own personal portfolio website.
 
-## 🔑 License
-- This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
+## Conclusion
 
-## 🧑 Author
+It has been a fantastic journey building my first website using Flutter. I welcome any feedback or suggestions. Please feel free to explore my site and get in touch with me!
 
-#### Muhammad Hamza
-[![LinkedIn Link](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
-)](https://www.linkedin.com/in/mhmzdev)
+## How to Run
 
-You can also follow my GitHub Profile to stay updated about my latest projects:
+1. Clone this repo to your machine.
+2. Navigate to the repo in your terminal.
+3. If you haven't already, install Flutter on your machine. For instructions, follow the [official Flutter installation guide](https://flutter.dev/docs/get-started/install).
+4. Run the command `flutter pub get` to install the necessary dependencies.
+5. Run the command `flutter run` to start the application. You can view the site in your browser at `localhost:8080`.
 
-[![GitHub Follow](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/m-hamzashakeel)
-
-If you liked the repo then kindly support it by giving it a star ⭐!
-
-Copyright (c) 2020 MUHAMMAD HAMZA
+Thank you for visiting my GitHub and exploring my projects. I look forward to sharing more of my coding journey with you!
