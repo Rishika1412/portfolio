@@ -46,7 +46,7 @@ class _ServiceCardBackWidget extends StatelessWidget {
                           MaterialButton(
                             height: 40.0,
                             onPressed: () => openURL(
-                              'https://api.whatsapp.com/send?phone=923460159889',
+                              'https://api.whatsapp.com/send?phone=9810341426',
                             ),
                             color: const Color(0xff34CB62),
                             child: Row(
@@ -69,21 +69,22 @@ class _ServiceCardBackWidget extends StatelessWidget {
                           Space.y1!,
                           MaterialButton(
                             height: 40.0,
-                            onPressed: () => openURL(
-                              'https://www.upwork.com/freelancers/~0197b0f6aaeba9675f',
-                            ),
+                            onPressed: () => sendMail(),
+                            // openURL(
+                            //   'https://www.upwork.com/freelancers/~0197b0f6aaeba9675f',
+                            // ),
                             color: const Color(0xff13A800),
                             child: Row(
                               mainAxisSize: MainAxisSize.min,
                               children: [
-                                Image.network(
-                                  'https://img.icons8.com/ios-filled/50/000000/upwork.png',
+                                Image.asset(
+                                  'assets/services/gmail.png',
                                   height: 35.0,
                                   color: Colors.white,
                                 ),
                                 Space.x!,
                                 Text(
-                                  'Upwork',
+                                  'Gmail',
                                   style: AppText.l1!.copyWith(
                                     color: Colors.white,
                                   ),

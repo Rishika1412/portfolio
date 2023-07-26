@@ -39,7 +39,7 @@ class ProjectUtils {
   ];
 
   static const List<String> description = [
-    "A final year B.Tech CSE group project created using a Flutter ecommerce app template and Firebase as the backend. The app allows users to browse through products, add items to their cart, and complete the checkout process."
+    "Final year project created using a Flutter & Firebase. The app allows users to browse through products, add items to their cart, and complete the checkout process."
     // "A very unique dart package to uplift the snackbar experience in flutter. Available at pub.dev now!",
     // "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter. Powered with live RestAPI given in README.md",
     // "A Phramacy app developed using Flutter powered with Firebase as database with Doctor and Patient panels.",
