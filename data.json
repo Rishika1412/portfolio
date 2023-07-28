@@ -45,6 +45,23 @@
             "iconUrl": "drive link",
             "bannerUrl": "png",
             "description": "."
+        },
+        {
+            "title": "WiserStep",
+            "iconUrl": "drive link",
+            "bannerUrl": "png",
+            "description": "."
+        },
+        {
+            "title": "WiserBoard",
+            "iconUrl": "drive link",
+            "bannerUrl": "png",
+            "description": "."
+        },{
+            "title": "PregVeda",
+            "iconUrl": "drive link",
+            "bannerUrl": "png",
+            "description": "."
         }
     ],
     "contact": [
