@@ -44,8 +44,7 @@ class StaticUtils {
     // "https://mhmzdev.medium.com"
   ];
 
-  static const String resume =
-      'https://drive.google.com/file/d/1QzjcEMeTbUqmip92XLwWEydVkgd9JUpo/view?usp=sharing';
+  static const String resume ='https://drive.google.com/file/d/1HjFDf5PrS_pWgHpn964Y6tqdgBVITfnP/view?usp=sharing';
 
   static const String gitHub = 'https://github.com/Rishika1412';
 }
