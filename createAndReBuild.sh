@@ -1,5 +1,5 @@
 #!/bin/sh
-version="1.0.3+4"
+version="1.0.4+5"
 # Check if pubspec.yaml exists in the current directory
 if [ ! -f pubspec.yaml ]; then
     echo "pubspec.yaml not found!"
